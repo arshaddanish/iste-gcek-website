@@ -1,4 +1,8 @@
 .services {
+  .section-title {
+    padding-bottom: 4rem;
+  }
+
   .activities {
     display: grid;
     grid-template-columns: repeat(3, 1fr);

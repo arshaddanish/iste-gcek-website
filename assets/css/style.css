@@ -360,6 +360,10 @@
   text-decoration: none;
 }
 
+.services .section-title {
+  padding-bottom: 4rem;
+}
+
 .services .activities {
   display: -ms-grid;
   display: grid;
