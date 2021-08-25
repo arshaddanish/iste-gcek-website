@@ -1,13 +1,13 @@
-@use 'navbar';
-@use 'about';
-@use 'activities';
-@use 'portfolio';
-@use 'team';
-@use 'faq';
-@use 'contact';
-@use 'footer';
-@use './pages/blogs';
-@use './pages/portfolio';
+@import 'navbar';
+@import 'about';
+@import 'activities';
+@import 'portfolio';
+@import 'team';
+@import 'faq';
+@import 'contact';
+@import 'footer';
+@import './pages/blogs';
+@import './pages/portfolio';
 
 /*--------------------------------------------------------------
 # General
