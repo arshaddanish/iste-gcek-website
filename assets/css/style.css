@@ -1698,7 +1698,8 @@ h6 {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
   z-index: 997;
-  padding: 20px 0;
+  padding: 12px 0;
+  background: rgba(0, 0, 0, 0.5);
 }
 
 #header .logo {
