@@ -394,7 +394,7 @@
   display: grid;
   -ms-grid-columns: (1fr)[3];
       grid-template-columns: repeat(3, 1fr);
-  gap: 4rem 2rem;
+  gap: 2rem;
   justify-items: center;
 }
 
