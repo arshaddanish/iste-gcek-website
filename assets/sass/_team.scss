@@ -97,6 +97,7 @@
   .team {
     .members {
       grid-template-columns: repeat(3, 1fr);
+      gap: 1rem;
     }
   }
 }
