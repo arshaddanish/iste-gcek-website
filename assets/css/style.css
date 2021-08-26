@@ -308,6 +308,27 @@
   padding-bottom: 4rem;
 }
 
+.about .about-content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  justify-items: center;
+}
+
+.about .about-content h4 {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.about .about-content p {
+  max-width: 600px;
+  font-size: 14px;
+  letter-spacing: 0.8px;
+}
+
 .about .content h3 {
   font-weight: 600;
   font-size: 26px;
@@ -559,6 +580,10 @@
 .team {
   background: #fff;
   padding: 60px 0;
+}
+
+.team .section-title {
+  padding-bottom: 4rem;
 }
 
 .team .members {

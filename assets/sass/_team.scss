@@ -2,6 +2,10 @@
   background: #fff;
   padding: 60px 0;
 
+  .section-title {
+    padding-bottom: 4rem;
+  }
+
   .members {
     display: grid;
     grid-template-columns: repeat(4, 1fr);

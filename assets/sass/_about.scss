@@ -3,6 +3,25 @@
     padding-bottom: 4rem;
   }
 
+  .about-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    justify-items: center;
+
+    h4 {
+      text-align: center;
+      margin-bottom: 1rem;
+      font-size: 1.5rem;
+    }
+
+    p {
+      max-width: 600px;
+      font-size: 14px;
+      letter-spacing: 0.8px;
+    }
+  }
+
   .content {
     h3 {
       font-weight: 600;
