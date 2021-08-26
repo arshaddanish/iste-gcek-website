@@ -10,7 +10,6 @@
     justify-items: center;
 
     .about-box {
-      border-radius: 8px;
       padding: 2rem;
     }
 
@@ -82,6 +81,19 @@
         background: #e43c5c;
         color: #fff;
         text-decoration: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .about {
+    .about-content {
+      grid-template-columns: repeat(1, 1fr);
+      gap: 0;
+
+      .about-box {
+        padding: 0;
       }
     }
   }

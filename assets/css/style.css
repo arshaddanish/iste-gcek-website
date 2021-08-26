@@ -318,7 +318,6 @@
 }
 
 .about .about-content .about-box {
-  border-radius: 8px;
   padding: 2rem;
 }
 
@@ -390,6 +389,17 @@
   background: #e43c5c;
   color: #fff;
   text-decoration: none;
+}
+
+@media (max-width: 992px) {
+  .about .about-content {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+    gap: 0;
+  }
+  .about .about-content .about-box {
+    padding: 0;
+  }
 }
 
 .services .section-title {
@@ -700,6 +710,7 @@
   .team .members {
     -ms-grid-columns: (1fr)[3];
         grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
   }
 }
 
