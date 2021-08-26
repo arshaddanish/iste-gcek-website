@@ -749,6 +749,14 @@
   }
 }
 
+.contact .section-title {
+  padding-bottom: 4rem;
+}
+
+.contact .info-form {
+  margin-bottom: 4rem;
+}
+
 .contact .info {
   width: 100%;
   background: #fff;
