@@ -88,3 +88,19 @@
     }
   }
 }
+
+@media (max-width: 992px) {
+  .team {
+    .members {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .team {
+    .members {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+}
