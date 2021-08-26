@@ -10,8 +10,6 @@
     justify-items: center;
 
     .about-box {
-      background: #fff;
-      box-shadow: 2px 0 35px 0 rgba(68, 88, 144, 0.12);
       border-radius: 8px;
       padding: 2rem;
     }
@@ -19,14 +17,15 @@
     h4 {
       text-align: center;
       margin-bottom: 1rem;
-      font-size: 1.5rem;
-      font-weight: 600;
+      font-weight: 700;
+      font-size: 18px;
     }
 
     p {
+      text-align: justify;
       max-width: 600px;
-      font-size: 14px;
-      letter-spacing: 0.8px;
+      font-size: 15px;
+      line-height: 28px;
     }
   }
 

@@ -318,9 +318,6 @@
 }
 
 .about .about-content .about-box {
-  background: #fff;
-  -webkit-box-shadow: 2px 0 35px 0 rgba(68, 88, 144, 0.12);
-          box-shadow: 2px 0 35px 0 rgba(68, 88, 144, 0.12);
   border-radius: 8px;
   padding: 2rem;
 }
@@ -328,14 +325,15 @@
 .about .about-content h4 {
   text-align: center;
   margin-bottom: 1rem;
-  font-size: 1.5rem;
-  font-weight: 600;
+  font-weight: 700;
+  font-size: 18px;
 }
 
 .about .about-content p {
+  text-align: justify;
   max-width: 600px;
-  font-size: 14px;
-  letter-spacing: 0.8px;
+  font-size: 15px;
+  line-height: 28px;
 }
 
 .about .content h3 {
