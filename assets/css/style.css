@@ -707,6 +707,10 @@
   padding: 60px 0;
 }
 
+.faq .section-title {
+  padding-bottom: 4rem;
+}
+
 .faq .faq-list {
   padding: 0;
   list-style: none;
@@ -716,6 +720,10 @@
   border-bottom: 1px solid #f1eeef;
   margin-bottom: 20px;
   padding-bottom: 20px;
+}
+
+.faq .faq-list li:last-child {
+  margin-bottom: 0;
 }
 
 .faq .faq-list .question {
