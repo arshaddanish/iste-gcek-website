@@ -1718,6 +1718,11 @@ h6 {
 
 #header .logo a {
   color: #fff;
+  font-weight: 900;
+}
+
+#header .logo a span {
+  color: #e43c5c;
 }
 
 #header .logo img {
