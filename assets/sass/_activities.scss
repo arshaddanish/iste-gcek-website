@@ -1,4 +1,6 @@
 .services {
+  background: #f7f8f9;
+
   .section-title {
     padding-bottom: 4rem;
   }
@@ -6,13 +8,13 @@
   .activities {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
+    gap: 3rem 2rem;
     justify-items: center;
   }
 
   .icon-box {
     max-width: 350px;
-    padding: 60px 30px;
+    padding: 50px 30px 30px;
     position: relative;
     overflow: hidden;
     background: #fff;
@@ -77,6 +79,7 @@
   .services {
     .activities {
       grid-template-columns: repeat(2, 1fr);
+      gap: 2rem;
     }
   }
 }

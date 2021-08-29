@@ -402,6 +402,10 @@
   }
 }
 
+.services {
+  background: #f7f8f9;
+}
+
 .services .section-title {
   padding-bottom: 4rem;
 }
@@ -411,13 +415,13 @@
   display: grid;
   -ms-grid-columns: (1fr)[3];
       grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
+  gap: 3rem 2rem;
   justify-items: center;
 }
 
 .services .icon-box {
   max-width: 350px;
-  padding: 60px 30px;
+  padding: 50px 30px 30px;
   position: relative;
   overflow: hidden;
   background: #fff;
@@ -483,6 +487,7 @@
   .services .activities {
     -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
   }
 }
 
@@ -595,7 +600,7 @@
 }
 
 .team {
-  background: #fff;
+  background: #f7f8f9;
   padding: 60px 0;
 }
 
