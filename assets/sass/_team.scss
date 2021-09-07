@@ -1,6 +1,6 @@
 .team {
   background: #fff;
-  padding: 60px 0;
+  padding: 40px 0 30px;
 
   .members {
     display: grid;
@@ -103,4 +103,8 @@
       grid-template-columns: repeat(2, 1fr);
     }
   }
+}
+
+#top-margin {
+  margin-top: 80px;
 }

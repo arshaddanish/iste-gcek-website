@@ -558,7 +558,7 @@
 
 .team {
   background: #fff;
-  padding: 60px 0;
+  padding: 40px 0 30px;
 }
 
 .team .members {
@@ -676,6 +676,10 @@
     -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
   }
+}
+
+#top-margin {
+  margin-top: 80px;
 }
 
 .faq {
@@ -1958,7 +1962,7 @@ section {
 }
 
 .section-title h3 {
-  margin: 15px 0 0 0;
+  margin: 15px 0;
   font-size: 32px;
   font-weight: 700;
 }
@@ -2067,3 +2071,4 @@ section {
   color: #655356;
   content: "/";
 }
+/*# sourceMappingURL=style.css.map */
