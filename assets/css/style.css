@@ -611,8 +611,8 @@
 .team .members {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[4];
-      grid-template-columns: repeat(4, 1fr);
+  -ms-grid-columns: (1fr)[5];
+      grid-template-columns: repeat(5, 1fr);
   justify-items: center;
   gap: 2rem;
 }
@@ -1790,7 +1790,7 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   padding: 12px 0;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.8);
 }
 
 #header .logo {
@@ -1818,7 +1818,7 @@ h6 {
 
 #header.header-scrolled,
 #header.header-inner-pages {
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(0, 0, 0, 0.8);
   padding: 12px 0;
 }
 
@@ -1858,7 +1858,6 @@ h6 {
 
 #hero .carousel-item::before {
   content: "";
-  background-color: rgba(0, 0, 0, 0.5);
 }
 
 #hero .carousel-container {
