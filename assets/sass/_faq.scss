@@ -43,6 +43,10 @@
       position: absolute;
       left: 0;
       top: -2px;
+
+      &.fas {
+        position: static;
+      }
     }
 
     p {

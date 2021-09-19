@@ -780,6 +780,10 @@
   top: -2px;
 }
 
+.faq .faq-list i.fas {
+  position: static;
+}
+
 .faq .faq-list p {
   margin-bottom: 0;
   padding: 10px 0 0 25px;
