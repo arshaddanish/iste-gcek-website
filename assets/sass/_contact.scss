@@ -1,4 +1,6 @@
 .contact {
+  background: #f7f8f9;
+
   .section-title {
     padding-bottom: 4rem;
   }
@@ -9,7 +11,7 @@
 
   .info {
     width: 100%;
-    background: #fff;
+    // background: #fff;
 
     i {
       font-size: 20px;
@@ -55,7 +57,7 @@
 
   .php-email-form {
     width: 100%;
-    background: #fff;
+    // background: #fff;
 
     .form-group {
       padding-bottom: 8px;
@@ -105,6 +107,7 @@
 
     input,
     textarea {
+      background: inherit;
       border-radius: 0;
       box-shadow: none;
       font-size: 14px;

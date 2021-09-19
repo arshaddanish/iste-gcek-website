@@ -305,7 +305,7 @@
 }
 
 .about .section-title {
-  padding-bottom: 4rem;
+  padding-bottom: 2rem;
 }
 
 .about .about-content {
@@ -743,6 +743,12 @@
   list-style: none;
 }
 
+.faq .faq-list br {
+  content: "A" !important;
+  display: block !important;
+  margin-bottom: 0.25em !important;
+}
+
 .faq .faq-list li {
   border-bottom: 1px solid #f1eeef;
   margin-bottom: 20px;
@@ -809,6 +815,10 @@
   }
 }
 
+.contact {
+  background: #f7f8f9;
+}
+
 .contact .section-title {
   padding-bottom: 4rem;
 }
@@ -819,7 +829,6 @@
 
 .contact .info {
   width: 100%;
-  background: #fff;
 }
 
 .contact .info i {
@@ -872,7 +881,6 @@
 
 .contact .php-email-form {
   width: 100%;
-  background: #fff;
 }
 
 .contact .php-email-form .form-group {
@@ -923,6 +931,7 @@
 
 .contact .php-email-form input,
 .contact .php-email-form textarea {
+  background: inherit;
   border-radius: 0;
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -981,9 +990,7 @@
 #footer {
   color: #444444;
   font-size: 14px;
-  background: #f6f4f4;
-  -webkit-box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-          box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  background: #f7f8f9;
 }
 
 #footer .footer-top {
@@ -1061,6 +1068,10 @@
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
   color: #e43c5c;
+}
+
+#footer .footer-top .footer-links ul a.disabled {
+  cursor: default;
 }
 
 #footer .footer-newsletter {
