@@ -8,20 +8,13 @@
 
   .members {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     justify-items: center;
-    gap: 2rem;
-
-    &.forum {
-      grid-template-columns: repeat(4, 1fr);
-
-      .member {
-        max-width: 250px;
-      }
-    }
+    gap: 2.5rem 2rem;
   }
 
   .member {
+    max-width: 250px;
     margin-bottom: 20px;
     overflow: hidden;
     text-align: center;
@@ -119,5 +112,5 @@
 }
 
 #top-margin {
-  margin-top: 80px;
+  margin-top: 4rem;
 }

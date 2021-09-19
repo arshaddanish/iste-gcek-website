@@ -611,22 +611,14 @@
 .team .members {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[5];
-      grid-template-columns: repeat(5, 1fr);
-  justify-items: center;
-  gap: 2rem;
-}
-
-.team .members.forum {
   -ms-grid-columns: (1fr)[4];
       grid-template-columns: repeat(4, 1fr);
-}
-
-.team .members.forum .member {
-  max-width: 250px;
+  justify-items: center;
+  gap: 2.5rem 2rem;
 }
 
 .team .member {
+  max-width: 250px;
   margin-bottom: 20px;
   overflow: hidden;
   text-align: center;
@@ -736,7 +728,7 @@
 }
 
 #top-margin {
-  margin-top: 80px;
+  margin-top: 4rem;
 }
 
 .faq {
