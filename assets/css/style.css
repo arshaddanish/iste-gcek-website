@@ -726,6 +726,10 @@
   }
 }
 
+#top-margin {
+  margin-top: 80px;
+}
+
 .faq {
   padding: 60px 0;
 }
@@ -2013,7 +2017,7 @@ section {
 }
 
 .section-title h3 {
-  margin: 15px 0 0 0;
+  margin: 15px 0;
   font-size: 32px;
   font-weight: 700;
 }
