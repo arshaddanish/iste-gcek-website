@@ -617,6 +617,15 @@
   gap: 2rem;
 }
 
+.team .members.forum {
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+}
+
+.team .members.forum .member {
+  max-width: 250px;
+}
+
 .team .member {
   margin-bottom: 20px;
   overflow: hidden;

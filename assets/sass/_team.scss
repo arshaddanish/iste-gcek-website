@@ -11,6 +11,14 @@
     grid-template-columns: repeat(5, 1fr);
     justify-items: center;
     gap: 2rem;
+
+    &.forum {
+      grid-template-columns: repeat(4, 1fr);
+
+      .member {
+        max-width: 250px;
+      }
+    }
   }
 
   .member {
