@@ -34,6 +34,19 @@
     el.addEventListener("scroll", listener);
   };
 
+  let selectHome = select(".home");
+  if (selectHome) {
+    const homeScrolled = () => {
+      if (window.scrollY > 200) {
+        selectHome.classList.remove("active");
+      } else {
+        selectHome.classList.add("active");
+      }
+    };
+    window.addEventListener("load", homeScrolled);
+    onscroll(document, homeScrolled);
+  }
+
   /**
    * Navbar links active state on scroll
    */
