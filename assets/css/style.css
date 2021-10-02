@@ -1211,12 +1211,6 @@
   text-decoration: none;
 }
 
-@media (max-width: 576px) {
-  .footer .social-links {
-    padding-top: 2rem !important;
-  }
-}
-
 .portfolio-details {
   padding-top: 40px;
 }
