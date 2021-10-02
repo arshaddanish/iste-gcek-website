@@ -1249,6 +1249,8 @@
 
 .portfolio-details .portfolio-description {
   padding: 0 2rem;
+  text-align: justify;
+  font-family: "Nunito", sans-serif;
 }
 
 .portfolio-details .portfolio-description h2 {
