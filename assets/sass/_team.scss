@@ -2,6 +2,10 @@
   background: #f7f8f9;
   padding: 60px 0;
 
+  &.web {
+    padding: 60px 0 100px;
+  }
+
   .section-title {
     padding-bottom: 4rem;
   }
@@ -9,6 +13,13 @@
   .members {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    gap: 2.5rem 2rem;
+  }
+
+  .web-team {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     justify-items: center;
     gap: 2.5rem 2rem;
   }

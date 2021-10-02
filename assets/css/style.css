@@ -644,6 +644,10 @@
   padding: 60px 0;
 }
 
+.team.web {
+  padding: 60px 0 100px;
+}
+
 .team .section-title {
   padding-bottom: 4rem;
 }
@@ -653,6 +657,15 @@
   display: grid;
   -ms-grid-columns: (1fr)[4];
       grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  gap: 2.5rem 2rem;
+}
+
+.team .web-team {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
   justify-items: center;
   gap: 2.5rem 2rem;
 }
