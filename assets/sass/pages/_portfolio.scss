@@ -63,3 +63,11 @@
     }
   }
 }
+
+@media (max-width: 576px) {
+  .portfolio-details {
+    .portfolio-description {
+      padding: 0 0.5rem;
+    }
+  }
+}
