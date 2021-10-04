@@ -76,7 +76,7 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   padding: 12px 0;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 1);
 }
 
 #header .logo {
@@ -243,19 +243,18 @@ h6 {
   font-family: "Poppins", sans-serif;
   text-transform: uppercase;
   font-weight: 400;
-  font-size: 13px;
+  font-size: 14px;
   letter-spacing: 1px;
   display: inline-block;
-  padding: 8px 30px 9px 30px;
+  padding: 10px 30px;
   border-radius: 50px;
   transition: 0.5s;
-  border: 2px solid #fff;
   color: #fff;
+  background: #e43c5c;
 }
 
 #hero .btn-get-started:hover {
-  background: #e43c5c;
-  border: 2px solid #e43c5c;
+  background: #d01d3f;
 }
 
 /*--------------------------------------------------------------
