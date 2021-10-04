@@ -116,7 +116,7 @@
 
 @media (max-width: 768px) {
   .team {
-    .members {
+    .members, .web-team {
       grid-template-columns: repeat(2, 1fr);
     }
   }
