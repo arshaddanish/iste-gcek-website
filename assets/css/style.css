@@ -780,6 +780,15 @@
   }
 }
 
+@media (max-width: 576px) {
+  .team.forum {
+    padding: 1rem 0;
+  }
+  .team.forum .section-title {
+    padding-bottom: 2rem;
+  }
+}
+
 #top-margin {
   margin-top: 4rem;
 }
