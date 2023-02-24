@@ -266,7 +266,7 @@
   margin: 15px;
 }
 
-.navbar-mobile .dropdown ul {
+/* .navbar-mobile .dropdown ul {
   position: static;
   display: none;
   margin: 10px 20px;
@@ -303,7 +303,7 @@
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
 }
-
+ */
 .about .section-title {
   padding-bottom: 2rem;
 }
